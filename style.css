@@ -1,0 +1,133 @@
+/* Sortable tables */
+table.sortable thead {
+  background-color: #90ee90;
+  color: #000;
+  font-weight: bold;
+  cursor: default;
+}
+
+#inputTable {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #dee2e6;
+  margin-bottom: 12px;
+}
+
+/* Navigation */
+
+.logo {
+  background-color: #90ee90;
+  width: 100px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.footerLinks {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #000;
+}
+
+.footerLinks:hover {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #000;
+}
+
+/* Content area */
+
+.contentArea {
+  padding-top: 20px;
+}
+
+.box {
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  margin-bottom: 1rem;
+}
+
+.box2 {
+  margin: 10px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  width: 100%;
+}
+
+.active {
+  color: #000;
+}
+
+.picture-col-8 {
+  width: 100%;
+  max-width: 100%;
+}
+
+.text-picture {
+  margin-left: 1rem;
+}
+
+.text-img {
+  display: inline-block;
+  vertical-align: top;
+}
+/* Responsive behavior */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .col-8 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-8 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .col-4 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-4 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .col {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .col {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .row-resp {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .row-resp {
+    margin-right: 0px;
+  }
+}

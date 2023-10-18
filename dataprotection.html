@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="navigation.js"></script>
+    <title>Klimawandel Webseite</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="page-container">
+      <!-- Header -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+            <img
+              src="logo.png"
+              alt="Logo"
+              class="d-inline-block align-top logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li id="home" class="nav-item" onclick="home()">
+                <a class="nav-link" href="index.html">Home </a>
+              </li>
+              <li id="aboutus" class="nav-item" onclick="about()">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li id="contact" class="nav-item" onclick="contact()">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <span class="navbar-text"> Climate awareness is our motto! </span>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Content -->
+      <div class="row row-resp">
+        <div class="col">
+          <div class="container-fluid box2">
+            <h2>Data protection</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum nam maxime assumenda provident. Quo nam sapiente eius.
+              Error, praesentium culpa, vero ipsam sit perspiciatis esse odit
+              nobis similique ducimus facere.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="bg-light text-center text-lg-start footer container-fluid">
+        <div class="container p-4">
+          <a class="footerLinks" href="disclaimer.html">Disclaimer</a>
+          <a class="footerLinks" href="dataprotection.html">Data protection</a>
+          <a class="footerLinks" href="privacypolicy.html">Privacy policy</a>
+          <a class="footerLinks" href="contact.html">Contact</a>
+        </div>
+      </footer>
+
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </div>
+  </body>
+</html>
