@@ -1,9 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
     <script src="navigation.js"></script>
-    <title>Klimawandel Webseite</title>
+    <title>CO2 emissions worldwide</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -16,7 +30,7 @@
       <!-- Header -->
       <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand main-area-logo" href="index.html">
             <img
               src="logo.png"
               alt="Logo"
@@ -36,32 +50,36 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
-              <li id="home" class="nav-item" onclick="home()">
+              <li class="nav-item">
                 <a class="nav-link" href="index.html">Home </a>
               </li>
-              <li id="aboutus" class="nav-item" onclick="about()">
+              <li class="nav-item">
                 <a class="nav-link" href="aboutus.html">About Us</a>
               </li>
-              <li id="contact" class="nav-item" onclick="contact()">
+              <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
-            <span class="navbar-text"> Climate awareness is our motto! </span>
+            <span class="navbar-text main-area">
+              Climate awareness is our motto!
+            </span>
           </div>
         </nav>
       </header>
 
       <!-- Content -->
-      <div class="row row-resp">
-        <div class="col">
-          <div class="container-fluid box2">
-            <h2>Contact</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum nam maxime assumenda provident. Quo nam sapiente eius.
-              Error, praesentium culpa, vero ipsam sit perspiciatis esse odit
-              nobis similique ducimus facere.
-            </p>
+      <div class="main-area container-fluid contentArea">
+        <div class="row row-resp">
+          <div class="col">
+            <div class="container-fluid box2">
+              <h2>Contact</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum nam maxime assumenda provident. Quo nam sapiente
+                eius. Error, praesentium culpa, vero ipsam sit perspiciatis esse
+                odit nobis similique ducimus facere.
+              </p>
+            </div>
           </div>
         </div>
       </div>

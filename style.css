@@ -16,6 +16,10 @@ table.sortable thead {
 
 /* Navigation */
 
+.nav-link {
+    color: #333 !important;
+}
+
 .logo {
   background-color: #90ee90;
   width: 100px;
@@ -44,6 +48,18 @@ table.sortable thead {
   padding-top: 20px;
 }
 
+.main-area {
+  margin-left: 200px;
+  margin-right: 200px;
+  width: auto;
+}
+
+.main-area-logo {
+  margin-left: 200px;
+  /* margin-right: 200px; */
+  width: auto;
+}
+
 .box {
   padding: 10px;
   background-color: #f8f9fa;
@@ -57,10 +73,6 @@ table.sortable thead {
   background-color: #f8f9fa;
   border: 1px solid #dee2e6;
   width: 100%;
-}
-
-.active {
-  color: #000;
 }
 
 .picture-col-8 {
@@ -120,14 +132,38 @@ table.sortable thead {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (max-width: 768px) {
   .row-resp {
     margin-right: 0px;
   }
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main-area {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+
 @media (max-width: 768px) {
-  .row-resp {
-    margin-right: 0px;
+  .main-area {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main-area-logo {
+    margin-left: 0px;
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-area-logo {
+    margin-left: 0px;
+    width: auto;
   }
 }
